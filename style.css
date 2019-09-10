@@ -1,0 +1,100 @@
+
+/* HOME */
+.bodyhome {
+    background-size:100% 100%;
+  }
+
+  #list {
+    margin-left: 300px;
+  }
+
+  .jumbotron {
+      background: rgb(215, 219, 226);
+      margin:0%;
+  }
+  
+  .lista {
+    margin: 0%;
+    background-size:100% 100%;
+    height: 250px
+}
+
+.lista ul {
+  /* vertical-align: middle; */
+  line-height: 40px;
+}
+
+a:link    {color:#000;}
+a:visited {color:#000;}
+a:hover   {color:#000;}
+a:active  {color:#000;}
+
+
+/* PLOTS */
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+  }
+
+  p {
+      margin-bottom: 20px;
+      font
+  }
+
+  h4 {
+    text-decoration: underline;
+  }
+
+/* DATASET */
+  table {
+      margin: 20px 20px 20px 20px;
+      margin-right: 50px;
+  }
+
+  img {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width:"100";
+    height:"150";
+    /* max-width: 100%;
+    height: auto; */
+  }
+
+
+/* COMPARE */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
